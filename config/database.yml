@@ -1,0 +1,31 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: proto_uuid_app_development
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 123456
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: proto_uuid_app_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 123456
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: proto_uuid_app_production
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 123456
